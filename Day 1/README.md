@@ -23,6 +23,7 @@ The *image_name* is the name you want to the image to name the image after the b
 To use docker compose, change to the directory where the docker-compose file is located and run the command:
 ```cmd
 docker compose up
+```
 
 _N:B_ To run the image as a container, use the command:
 ```cmd
