@@ -31,3 +31,11 @@ docker run --name any_name_for_the_container -it name_of_image
 ```
 
 You need not worry about port setting as the web application as the app will run on port 5000
+
+# Running the built image in a Kubernetest Cluster
+
+After building my image from the dockerfile/docker-compose file which I named Flask _flask_demo_, i pushed this image to the docker hub registry to enable me reuse it in future.
+
+I will be using this image in my kubernetes cluster
+
+I have the setup to run the image defined in _basic.yml file._ This runs a basic pod with an image.
