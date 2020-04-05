@@ -39,3 +39,11 @@ After building my image from the dockerfile/docker-compose file which I named Fl
 I will be using this image in my kubernetes cluster
 
 I have the setup to run the image defined in _basic.yml file._ This runs a basic pod with an image.
+
+Use the command:
+
+```yaml
+kubectl create -f basic.yaml
+```
+
+This will create a Kubernetes cluster running the image specified in the basic.yaml file
