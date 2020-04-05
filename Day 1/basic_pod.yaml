@@ -1,0 +1,25 @@
+# The setup a basic pod, you would need to have a container image somewhere and declare the container specification
+#
+# Container spec:
+
+# name: Flask_webapp
+# image: stevendev/flask_demo
+# ports:
+# - containerPort: 80
+
+
+# To  declare a basic pod we would specify below:
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: Flask_webapp-pod
+  labels:
+    app: Flask_webapp
+    
+spec:
+  containers:
+  - name: Flask_webapp-container
+    image: stevendev/flask_demo
+    ports:
+      - containerPort: 80
