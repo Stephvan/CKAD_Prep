@@ -13,13 +13,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: Flask_webapp-pod
+  name: flask-webapp-pod
   labels:
-    app: Flask_webapp
+    app: flask-webapp
     
 spec:
   containers:
-  - name: Flask_webapp-container
+  - name: flask-webapp-container
     image: stevendev/flask_demo
     ports:
       - containerPort: 80
