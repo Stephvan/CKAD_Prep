@@ -30,4 +30,4 @@ _N:B_ To run the image as a container, use the command:
 docker run --name any_name_for_the_container -it name_of_image
 ```
 
-You need not worry about port setting as the web application is not set to a default port
+You need not worry about port setting as the web application as the app will run on port 5000
